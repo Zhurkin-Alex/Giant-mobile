@@ -1,0 +1,167 @@
+.product {
+    &__team {
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    padding: 118px 0 90px;
+
+    &__item {
+        background-color: #f7fafc;
+        width: 263px;
+    }
+
+    &__heading {
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #333333;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 18px;
+    }
+
+    &__cost {
+
+        position: relative;
+        background-color: #fff;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 53px;
+
+        &-page {
+            font-family: 'Dosis', sans-serif;
+            font-size: 48px;
+            font-weight: 500;
+            color: #333333;
+            .product__cost-one{
+                left: 84px;
+            }
+            .product__cost-second{
+                left: 69px;
+            }
+            .product__cost-third{
+                left: 67px;
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                width: 50%;
+                height: 40px;
+                left: 0;
+                background-color: #f7fafc;
+                clip-path: polygon(0% 100%, 0% 0%, 100% 100%);
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                width: 50%;
+                height: 40px;
+                right: 0;
+                background-color: #f7fafc;
+                clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+            }
+
+            sup {
+                font-family: 'Dosis', sans-serif;
+                font-size: 18px;
+                position: absolute;
+                top: 49px;
+                left: 87px;
+
+            }
+
+            sub {
+                font-family: 'Dosis', sans-serif;
+                font-size: 18px;
+                position: absolute;
+                bottom: 69px;
+
+            }
+        }
+
+
+
+    }
+}
+
+.product__data {
+    background-color: #f7fafc;
+    text-align: center;
+
+    &-list {
+        width: 202px;
+        margin: 0 auto;
+        padding: 39px 0 40px;
+
+        a {
+            display: block;
+        }
+
+    }
+
+    &-team {
+        padding-bottom: 9px;
+        border-bottom: 1.0px dotted #eeeeee;
+        margin-bottom: 10px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 300;
+        color: #777777;
+
+        &:nth-last-child() {
+            border: none;
+            margin-bottom: 0;
+        }
+    }
+
+    &-none {
+        border: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+.product__btn-before {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #aaaaaa;
+    padding-top: 50px;
+    padding-bottom: 14px;
+}
+
+.product__btn {
+    padding: 12px 42px;
+    background-color: #ffffff;
+    border: 1.0px solid #eeeeee;
+    border-radius: 20.0px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #333333;
+
+}
+.product__item-change{
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+}
+.product__heading-change{
+    background-color: #fff;
+}
+.product__cost-change{
+    background: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+}
+.product__btn-change{
+    background-image: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+    border: 3.0px solid rgba(0,0,0,0.1);
+}
+
+

@@ -1,0 +1,93 @@
+.download {
+    padding: 119px 0 120px;
+    background: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+
+    &__team {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__header {
+        font-family: 'Dosis';
+        font-size: 36px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        padding-bottom: 71px;
+    }
+
+    &__iteam {
+        padding: 30px 70px 30px 116px;
+        background-color: #ffffff;
+        border-radius: 3.0px;
+        max-width: 398px;
+        position: relative;
+
+        &:after {
+            content: "\f179";
+            font-family: 'icomoon' !important;
+            width: 64px;
+            height: 73px;
+            position: absolute;
+            left: 27px;
+            top: 19px;
+            font-size: 60px;
+            color: #777777;
+            stroke-width: 3px;
+            stroke: rgb(0, 0, 0);
+            fill: rgba(0, 0, 0, 0.1);
+
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 115px;
+            height: 100%;
+            background-color: #f7fafc;
+            border-radius: 3.0px;
+        }
+    }
+
+    &__name {
+        font-family: 'Dosis';
+        font-size: 30px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #222222;
+        padding-bottom: 14px;
+
+    }
+
+    &__place {
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+    }
+
+    &__chanel {
+        padding-left: 19px;
+    }
+}
+
+.download__iteam-second{
+    &:after {
+        content: "\f17b";
+        color: #fa5a42;
+        
+
+    }
+}
+.download__iteam-therd{
+    &:after {
+        content: "\f17a";
+        
+
+    }
+}

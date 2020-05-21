@@ -1,0 +1,116 @@
+.screenshots {
+    background-color: #f7fafc;
+}
+
+.screenshots__container {
+    padding: 119px 0 63px 0;
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+    top: 50%;
+    height: 40px;
+    margin-top: -40px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-size: 30px;
+    z-index: 9;
+
+    &:hover {
+        background: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+
+        &:before {
+            color: #ffffff;
+        }
+    }
+}
+
+.hi-slide {
+    ul {
+        margin-left: 123px;
+        ;
+
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        li {
+            box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+.hi-slide .hi-prev::before {
+    font-family: 'icomoon' !important;
+    content: "\f177";
+    color: #777777;
+    font-size: 14px;
+    top: -18px;
+    left: 11px;
+    position: absolute;
+}
+
+.hi-slide .hi-next::before {
+    font-family: 'icomoon' !important;
+    content: "\f178";
+    color: #777777;
+    font-size: 14px;
+    top: -18px;
+    left: 11px;
+    position: absolute;
+}
+
+.slick-slider {
+    .slick-prev {
+        // display: none;
+        z-index: 55;
+        position: absolute;
+        top: 45%;
+        left: 263px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background: linear-gradient(90deg, #fd712c 0%, #f21780 100%) !important;
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        color: #777777;
+        font-size: 14px;
+        border: 1.0px solid #eeeeee;
+        cursor: pointer;
+
+        &:before {
+            font-family: 'icomoon' !important;
+            content: "\f177";
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+    }
+
+    .slick-next {
+        // display: none;
+        z-index: 55;
+        position: absolute;
+        top: 45%;
+        right: 263px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background: linear-gradient(90deg, #fd712c 0%, #f21780 100%) !important;
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        color: #777777;
+        font-size: 14px;
+        border: 1.0px solid #eeeeee;
+        cursor: pointer;
+
+        &:before {
+            font-family: 'icomoon' !important;
+            content: "\f178";
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    }
+}
+.screenshots__slider-second{
+    display: none;
+}

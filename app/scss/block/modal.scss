@@ -1,0 +1,22 @@
+#modal {
+    width: 300px;
+    display: none;
+}
+
+#modal input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0 10px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+.modal__btn {
+    background: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+    border: none;
+    cursor: pointer;
+}

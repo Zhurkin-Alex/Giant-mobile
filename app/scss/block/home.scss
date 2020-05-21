@@ -1,0 +1,176 @@
+.home {
+    background: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+    height: 100vh;
+    position: relative;
+    color: #ffffff;
+    &__mobils{
+        background-image: url(../img/iPhones.png);
+        min-height: 467px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+}
+
+.home__mobile {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 836px;
+    height: 571px;
+    position: absolute;
+    right: 0;
+    top: 146px;
+}
+
+header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+
+    &__name {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 24px;
+        display: inline-block;
+    }
+
+}
+.menu__burger{
+
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+    &__burger {
+        display: none;
+        font-size: 28px;
+        cursor: pointer;
+      
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        box-sizing: border-box;
+        padding: 12px 29px;
+
+        &:last-child {
+            background-color: #ffffff;
+            border-radius: 17.5px;
+
+            a {
+                color: #222222;
+                font-weight: 500;
+            }
+        }
+
+        a {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+
+        }
+
+        // &:hover {
+
+        //     background-color: #ffffff;
+        //     border-radius: 17.5px;
+
+        //     a {
+        //         color: #222222;
+        //         font-weight: 500;
+        //     }
+
+
+        // }
+    }
+}
+
+.home__content {
+    max-width: 500px;
+    margin-top: 151px;
+
+}
+
+.home__content-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 54px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+
+
+.home__content-text {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.checked {
+    margin-bottom: 30px;
+
+    &__list {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    &__items {
+        padding-left: 35px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        position: relative;
+
+        &:before {
+            content: "\f13a";
+            font-family: 'icomoon' !important;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+    }
+}
+
+.home__content-btn {
+    a {
+        background-color: #ffffff;
+        border: 5.0px solid rgba(0, 0, 0, 0.1);
+        border-radius: 20.0px;
+        background-color: #ffffff;
+        border: 5.0px solid rgba(0, 0, 0, 0.1);
+        border-radius: 20.0px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #222222;
+        padding: 0px 40px;
+    }
+
+}
+.icon-menu:before{
+    font-size: 35px;
+}
+.menu__Features{
+    transition: 2s;
+}

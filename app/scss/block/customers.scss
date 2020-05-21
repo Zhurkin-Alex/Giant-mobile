@@ -1,0 +1,111 @@
+.customers {
+    padding: 119px 0 90px;
+
+    &__slider {
+        position: relative;
+        
+    }
+
+    &__team {
+        padding-top: 70px;
+
+        .slick-arrow {
+            position: absolute;
+            top: 55%;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            background: linear-gradient(90.0deg, #fd712c 0%, #f21780 100%);
+            border: 3.0px solid rgba(0, 0, 0, 0.1);
+            color: #777777;
+            font-size: 14px;
+            border: 1.0px solid #eeeeee;
+            cursor: pointer;
+        }
+
+        .slick-prev {
+            left: -80px;
+
+            &::before {
+                font-family: 'icomoon' !important;
+                content: "\f177";
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+
+        }
+
+        .slick-next {
+            right: -65px;
+
+            &::before {
+                font-family: 'icomoon' !important;
+                content: "\f178";
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+
+        }
+    }
+
+    &__item {
+        max-width: 360px;
+       
+    }
+
+    &__item-box {
+        padding: 40px 0 40px;
+    }
+
+    &__text {
+        margin: 0 auto;
+        max-width: 268px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #777777;
+    }
+
+    &__page {
+        margin: 0 auto;
+        padding-top: 29px;
+        padding-left: 40px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__foto {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    &__name {
+        padding-left: 20px;
+    }
+}
+
+.slick-btn.slick-disabled {
+    background: transparent;
+    cursor: default;
+}
+
+.slick-slide, .slick-active{
+    .customers__item{
+        background-color: #f7fafc;
+    }
+    
+    
+}
+
+.customers__slider-1{
+    display: none;
+}

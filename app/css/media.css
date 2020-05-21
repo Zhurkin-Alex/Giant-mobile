@@ -1,0 +1,246 @@
+@media (max-width: 1600px){
+    .screenshots__slider{
+        display: none;
+    } 
+    .screenshots__slider-team li img{
+        margin: 0 auto;
+    }
+    .screenshots__slider-second{
+        display:block;
+    }
+    .screenshots__slider-item .slick-slider{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 1400px){
+    .customers__slider{
+        display:none  ;
+    }
+    .customers__slider-1{
+        display: block;
+    }
+    
+        .slick-track{
+            text-align: center;
+        }
+        .customers__team .slick-prev{
+            left: 25%;
+            z-index: 30;
+        }  
+        .customers__team .slick-next{
+            right: 25%;
+            z-index: 30;
+        }
+    
+}
+@media (max-width: 1340px) {
+  .container {
+    /* padding: 0 10px; */
+  }
+  .home__mobile {
+    display: none;
+  }
+  .home__content {
+    margin: 151px auto 0;
+  }
+
+  .home__content-title{
+ 
+    text-align: center;
+  
+}
+.home__content-text{
+    text-align: center;
+}
+.checked{
+    display: flex;
+    justify-content: center;
+}
+.home__content-btn{
+    text-align: center;
+}
+
+
+  .delta__list{
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
+  }
+  .delta__team{
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+.delta__item {
+    padding-top: 80px;
+    padding-left: 0;
+    text-align: center;
+
+}
+.delta__item:nth-child(2){
+    margin-left:0;
+}
+.delta__item:nth-child(3){
+    margin-left:0;
+}
+.delta__item:nth-child(4){
+    margin-left:0;
+}
+.delta__item:nth-child(5){
+    margin-left:0;
+}
+.delta__item:nth-child(6){
+    margin-left:0;
+}
+
+.delta__item:before{
+    left:40%;
+
+}
+.hi-slide .hi-next, .hi-slide .hi-prev{
+    display: none;
+}
+.delta__mobile{
+    display:none;
+}
+
+.delta__live{
+    padding-left: 0;
+    text-align: center
+}
+.delta__live-title{
+    padding-bottom: 35px;
+}
+.delta__live-text, .delta__live-text-1{
+    max-width: 405px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+.checked{
+    text-align: start;
+}
+
+}
+
+@media (max-width: 1200px) {
+    .logo{
+        margin-left: 20px;
+    }
+.product__item{
+    
+    border: 1px solid rgba(0,0,0, 0.1);
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto 25px;
+    border: 2px solid rgba(0,0,0, 0.2);
+}
+.product__data{
+    padding-bottom: 10px;
+}
+.product__data-list{
+    padding:0;
+}
+.product__team{
+    flex-wrap:wrap;
+}
+.product__cost-zero{
+
+}
+.product{
+    padding-bottom:0;
+}
+.product__cost-page .product__cost-one{
+    right: 176px;
+}
+.product__cost-page .product__cost-second{
+    left: 49px;
+}
+.product__cost-page .product__cost-third{
+    left: 46px;
+}
+.product__cost-page sup{
+    right: 168px;
+}
+.heading__text{
+    max-width: 90%;
+    margin: 0 auto;
+}
+}
+@media (max-width: 1100px){
+    .download__team{ 
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .download__iteam {
+        margin-bottom: 25px;
+        padding: 30px 50px 30px 116px;
+    }
+    .download__name{
+        font-size: 28px;
+
+    }
+}
+@media (max-width: 1000px){
+    .screenshots__slider-team .slick-prev {
+        display:none !important;
+    }
+    .screenshots__slider-team .slick-next {
+        display:none !important;
+    }
+}
+@media (max-width: 950px){
+    .customers__team .slick-prev{
+        display:none !important;
+    }  
+    .customers__team .slick-next{
+        display:none !important;
+    }
+    .slick-dots li button:before {
+
+    }
+}
+@media (max-width: 710px){
+    
+}
+@media (max-width: 620px) {
+  .menu__burger {
+    display: block;
+    z-index:60;
+    margin-right: 25px;
+  }
+  .menu ul {
+    display: none;
+    position: absolute;
+    top:-19px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 50;
+    padding-top: 5%;
+    height: 28%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .menu__item-download{
+      padding: 2px 2px;
+  }
+  .menu__item:last-child{
+    width: 160px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 550px){
+    .home__content-title{
+        font-size: 28px;
+        margin-bottom: 7px;
+        line-height: 41px;
+    }
+    .delta__live-text, .delta__live-text-1{
+        max-width:385px;
+    }
+}
+@media (max-width: 360px){
+.download__header{
+    font-size: 31px;
+}
+}
